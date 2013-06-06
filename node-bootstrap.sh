@@ -30,9 +30,10 @@ then
     # Symlink our host www to the guest /var/www folder
     ln -s /vagrant/www /var/www
 
-    # Victory!
-    echo "You're all done!  Your default node server is now running. Find it in node-mongo-vagrant/www/default/"
+    # install express yo
+    npm install express
 
-    # Run it
-    node /var/www/default/server.js
+    # Victory!
+    echo "You're all done! node.js is installed, mongodb is installed, express is installed, you've got a stubbed out server.js sitting in /var/www/default/ and you can access this machine at 33.33.33.10 ( like in your browser ) .  So \`vagrant ssh\` and then \`node /var/www/default/server.js\` to get up and running. "
+
 fi
