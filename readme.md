@@ -8,7 +8,11 @@
 5. vagrant up
 6. Grab a cup of coffee while you wait for the server to download and install. This will take a little while depending on your internet connection.
 
-Once you run it the first time, node will run the default server and you can access it by visiting 10.0.33.34 in your browser.
+After a successful `vagrant up` you can `vagrant ssh` to login. 
+
+Running `sudo node /var/www/default/server.js` on the vagrant machine will fire up the sample server. 
+
+Visiting 33.33.33.10 in your browser while the server is running should render a Hello World.
 
 ###Further Reading
 - [Vagrant Documentation](http://docs.vagrantup.com/v2/getting-started/index.html)
