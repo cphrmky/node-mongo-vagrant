@@ -33,6 +33,7 @@ then
 
     # install express yo
     npm install -g express
+    npm install -g nodemon
 
     # Victory!
     echo "You're all done! node.js is installed, mongodb is installed, express is installed, you've got a stubbed out server.js sitting in /var/www/default/ and you can access this machine at 33.33.33.10 ( like in your browser ) .  So \`vagrant ssh\` and then \`sudo node /var/www/default/server.js\` to get up and running. "
