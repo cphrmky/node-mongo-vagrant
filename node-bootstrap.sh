@@ -22,6 +22,7 @@ then
     # Build latest node.js from source
     cd /tmp
     git clone https://github.com/joyent/node.git
+    git checkout v0.10.11-release
     cd node
     ./configure
     make
