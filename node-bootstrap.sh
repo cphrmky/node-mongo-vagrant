@@ -42,3 +42,5 @@ then
     echo "export NODE_ENV='development'" >> /home/vagrant/.bashrc
 
 fi
+
+
