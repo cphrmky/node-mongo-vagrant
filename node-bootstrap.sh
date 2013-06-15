@@ -19,6 +19,9 @@ then
     # Install latest stable version of mongo
     apt-get install mongodb-10gen
 
+    # Install redis-server
+    apt-get install redis-server
+
     # Build latest node.js from source
     cd /tmp
     git clone https://github.com/joyent/node.git
